@@ -37,27 +37,27 @@ const data = async function (search) {
 
     if (type.innerHTML == "Clouds") {
         img.src = "assets/clouds.png";
-       video.src ="assets/clouds.mp4";
+      
     }
     else if(type.innerHTML == "Clear"){
         img.src = "assets/clear.png";
-         video.src = "assets/sunny.mp4";
+        
     }
     else if(type.innerHTML == "Rain"){
         img.src = "assets/rain.png";
-        video.src = "assets/rain.mp4";
+        
     }
     else if(type.innerHTML == "Snow"){
         img.src = "assets/snow.png";
-        video.src = "assets/snow.mp4";
+        
     }
     else if(type.innerHTML == "Strom"){
         img.src = "assets/storm.png";
-        video.src = "assets/storm.mp4";
+      
     }
     else if(type.innerHTML == "Haze" || type.innerHTML == "Smoke"  ){
         img.src = "assets/haze.png";
-        video.src = "assets/smoke.mp4"
+
             }
 input.value = "";
         };

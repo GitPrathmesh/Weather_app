@@ -58,11 +58,7 @@ margin-top: 2px;
 border: 2px solid black;
 
 }
-video{
-    width: 100%;
-    height:100%;
-    
-}
+
 
 #city{
     margin-top: 40px;
@@ -85,35 +81,4 @@ video{
 a{
   color:black;
   font-family:cursive;
-}
-
-#video::-webkit-media-controls,
-#video::-webkit-media-controls-play-button,
-#video::-webkit-media-controls-start-playback-button {
-  display: none !important;
-}
-
-#video::-webkit-media-controls-play-button,
-#video::-webkit-media-controls-pause-button {
-  display: none !important;
-}
-
-#video::-webkit-media-controls-timeline {
-  display: none !important;
-}
-
-#video::-webkit-media-controls-current-time-display {
-  display: none !important;
-}
-
-#video::-webkit-media-controls-time-remaining-display {
-  display: none !important;
-}
-
-#video::-webkit-media-controls-mute-button {
-  display: none !important;
-}
-
-#video::-webkit-media-controls-volume-slider {
-  display: none !important;
 }
